@@ -1,4 +1,4 @@
-# McFinance · 门财报
+# McFinance · 麦门财报
 
 把自己的麦当劳历史订单，变成一份有数据、有金句、能分享的个人消费研报。
 
@@ -107,5 +107,7 @@ Skill 是独立的指令包；真实查询还需要在目标客户端配置麦�
 - [CONTEST_DECLARATION.md](CONTEST_DECLARATION.md)：官方原文，未修改；校验信息见 [官方来源记录](docs/OFFICIAL_SOURCES.md)。
 - [docs/SUBMISSION.md](docs/SUBMISSION.md)：参赛前检查与可复制的报名 Issue 文本。
 
-按核查时的 [官方规则](https://github.com/M-China/mcd-developer-innovation-challenge/blob/main/activityGuidelines.md)，报名截止为 **2026-10-25 23:59（北京时间）**，作品必须真实使用麦当劳 MCP。开发过程中未使用 WorkBuddy，因此没有虚构 `workbuddy.md`。发布仓库和提交报名 Issue 由参赛者在确认材料后自行完成。
+按核查时的 [官方规则](https://github.com/M-China/mcd-developer-innovation-challenge/blob/main/activityGuidelines.md)，报名截止为 **2026-10-25 23:59（北京时间）**，作品必须真实使用麦当劳 MCP。开发过程中未使用 WorkBuddy，因此没有虚构 `workbuddy.md`。
+
+**报名状态：** 项目已公开发布，并于 2026-10-24 提交 [官方报名 Issue #1275](https://github.com/M-China/mcd-developer-innovation-challenge/issues/1275)，等待官方校验回复。创建 Issue 尚不代表确认参赛成功。
 

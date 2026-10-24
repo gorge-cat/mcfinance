@@ -1,8 +1,12 @@
-# 参赛前交付与报名文本
+# 参赛核验与报名记录
 
 官方入口：[mcd-developer-innovation-challenge](https://github.com/M-China/mcd-developer-innovation-challenge)。核查时的报名截止为 **2026-10-25 23:59（北京时间）**。
 
-## 提交前需要本人完成
+## 当前状态
+
+项目已公开发布至 [gorge-cat/mcfinance](https://github.com/gorge-cat/mcfinance)，并于 2026-10-24 提交 [官方报名 Issue #1275](https://github.com/M-China/mcd-developer-innovation-challenge/issues/1275)。报名正文格式已核对；当前等待官方校验回复，尚不能确认参赛成功。
+
+## 复核清单
 
 1. 真实 `order-list`、积分与优惠券只读联调已完成，参见 [联调记录](LIVE_VALIDATION.md)。提交前本人复核消费结果；更换账号或遇到接口变化时重新核验。
 2. 检查报告中的来源标签和数据质量说明，导出一张不含敏感信息的 SVG 卡；演示可使用示例数据，但不能称其为真实消费。
@@ -14,24 +18,24 @@
 
 未使用 WorkBuddy 开发时，不创建或编造 `workbuddy.md`。项目不宣称已获得任何官方背书、名次或奖励。
 
-## 可复制的 Issue 草稿
+## 已提交的 Issue 内容
 
 项目公开仓库为 [gorge-cat/mcfinance](https://github.com/gorge-cat/mcfinance)。项目地址使用原始 URL；每个字段名与值放在同一行，不在冒号后换行。可直接复制的纯文本正文见 [SUBMISSION_ISSUE.txt](SUBMISSION_ISSUE.txt)。
 
 标题：
 
 ```text
-【参赛申请】McFinance · 门财报
+【参赛申请】McFinance · 麦门财报
 ```
 
 正文：
 
 ```text
 【参赛申请】
-项目名称：McFinance · 门财报
+项目名称：McFinance · 麦门财报
 项目地址：https://github.com/gorge-cat/mcfinance
-项目简介：基于麦当劳 MCP order-list 历史订单的个人消费研报 Skill，生成消费 KPI、预算进度和有数据依据的趣味解读，支持 7/30/90 天分析、SVG 分享卡与 Markdown 导出；采用只读查询，不下单、不领券，明确标注示例与真实数据来源。
+项目简介：基于麦当劳官方 MCP order-list 的个人消费研报 Skill，已完成真实订单、积分及优惠券只读联调。提供消费 KPI、7/30/90 天预算复盘、餐品偏好与有数据依据的趣味解读，支持本地网页、JSON 导入、带图片的 SVG 分享卡和 Markdown 导出；不下单、不领券，明确标注演示与真实来源，Token 和个人订单不进入公开仓库。
 ```
 
-此文件只是准备好的提交材料。创建公开仓库、上传源代码与发送报名 Issue 尚需由参赛者实际执行。
+项目源码已公开，报名已提交；最终参赛状态以官方在 Issue 中的校验回复为准。
 
