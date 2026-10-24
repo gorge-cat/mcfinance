@@ -1,0 +1,4 @@
+* text=auto
+CONTEST_DECLARATION.md -text
+*.png binary
+*.svg text eol=lf
