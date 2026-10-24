@@ -1,0 +1,4 @@
+【参赛申请】
+项目名称：McFinance · 门财报
+项目地址：https://github.com/gorge-cat/mcfinance
+项目简介：基于麦当劳官方 MCP order-list 的个人消费研报 Skill，已完成真实订单、积分及优惠券只读联调。提供消费 KPI、7/30/90 天预算复盘、餐品偏好与有数据依据的趣味解读，支持本地网页、JSON 导入、带图片的 SVG 分享卡和 Markdown 导出；不下单、不领券，明确标注演示与真实来源，Token 和个人订单不进入公开仓库。

@@ -1,0 +1,14 @@
+{
+  "name": "mcfinance",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "McFinance 麦门消费研报：由订单数据驱动的个人消费终端与麦当劳 MCP Skill",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check server.js && node --check public/app.js && node --test tests/*.test.js"
+  }
+}

@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+node_modules/
+coverage/
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+playwright-report/
+test-results/
+private-data/
+artifacts/
+release/
+__pycache__/
+
